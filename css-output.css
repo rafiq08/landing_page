@@ -1,0 +1,114 @@
+body {
+  font: 100% Helvetica, sans-serif;
+  margin: 0;
+}
+
+.navbar {
+  background-color: #F7FAFC;
+  height: 50px;
+  padding-bottom: 5px;
+}
+.navbar a {
+  color: #4A5568;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+.navbar a img {
+  height: 30px;
+  width: 35px;
+}
+.navbar a:hover {
+  background-color: #DDD;
+  color: black;
+  padding: 10px 20px;
+}
+.navbar .right {
+  float: right;
+  width: auto;
+  display: block;
+  padding: 5px;
+}
+
+.header {
+  background-image: url("image/header.jpg");
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  border-top: 1px solid #3C3668;
+  border-bottom: 1px solid #3C3668;
+}
+
+.text-header {
+  text-align: center;
+  padding: 30px;
+}
+.text-header h1 {
+  color: #3C3668;
+  text-shadow: 1px apx #F7FAFC;
+  font-size: 35px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.text-header hr {
+  margin: auto;
+  width: 50%;
+  border-color: #718096;
+  margin-bottom: 10px;
+}
+.text-header p {
+  color: #4A5568;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+
+.button-basic, .button-secondary, .button-primary {
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 20px;
+  cursor: pointer;
+  color: white;
+  font-family: "Poiret one", cursive;
+  text-decoration: none;
+  border-radius: 8px;
+  margin-top: 30px;
+}
+
+.button-primary {
+  background-color: #E74c3c;
+}
+
+.button-secondary {
+  background-color: #718096;
+}
+
+.about {
+  background-color: #F7FAFC;
+  color: #3C3668;
+  height: 100px;
+}
+
+.product {
+  background-color: #E74c3c;
+  color: #F7FAFC;
+  height: 100px;
+}
+
+.contact {
+  background-color: #F7FAFC;
+  color: #4A5568;
+  height: 100px;
+}
+
+.footer {
+  background-color: #4A5568;
+  color: #F7FAFC;
+  height: 75px;
+}
+
+/*# sourceMappingURL=css-output.css.map */
