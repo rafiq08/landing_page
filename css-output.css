@@ -87,10 +87,47 @@ body {
   background-color: #718096;
 }
 
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 20px;
+}
+
+.item-sepertiga {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.item-duapertiga {
+  grid-column-start: 2;
+  grid-column-end: 3;
+}
+
 .about {
-  background-color: #F7FAFC;
+  background-image: linear-gradient(to bottom right, #DDD, #F7FAFC);
+  height: 400px;
+}
+.about img {
+  border-radius: 100%;
+  padding: 20px;
+  width: 300px;
+  height: 300px;
+}
+.about h1 {
   color: #3C3668;
-  height: 100px;
+  text-shadow: #F7FAFC;
+  font-size: 46px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.about h2 {
+  color: #E74c3c;
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+.about p {
+  color: #718096;
+  font-size: 20px;
 }
 
 .product {

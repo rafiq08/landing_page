@@ -98,11 +98,53 @@ body{
     background-color: $grey;
 }
 
-.about{
-    background-color: $light-color;    
-    color: $indigo-color;
-    height: 100px;
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: 20px;
 }
+
+@mixin item($start, $end){
+    grid-column-start: $start;
+    grid-column-end: $end;
+}
+
+.item-sepertiga{
+    @include item(1, 2);
+}
+
+.item-duapertiga{
+    @include item(2, 3);
+}
+
+.about{
+    background-image: linear-gradient(to bottom right, $light-grey, $light-color);
+    height: 400px;
+    img{
+        border-radius: 100%;
+        padding: 20px;
+        width: 300px;
+        height: 300px;
+    }
+    h1{
+        color: $indigo-color;
+        text-shadow: $light-color;
+        font-size: 46px;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    h2{
+        color: $red-color;
+        font-size: 32px;
+        margin-bottom: 15px;
+    }
+    p{
+        color: $grey;
+        font-size: 20px;
+    }
+}
+
+
 
 .product{
     background-color: $red-color;    
