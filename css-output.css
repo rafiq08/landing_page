@@ -215,9 +215,37 @@ body {
 }
 
 .contact {
-  background-color: #F7FAFC;
-  color: #4A5568;
-  height: 100px;
+  background-image: url("image/us.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  padding: 50px;
+}
+.contact .info {
+  width: 50%;
+  background-color: #DDD;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px;
+  text-align: justify;
+  border-radius: 10px;
+}
+@media screen and (max-width: 800px) {
+  .contact .info {
+    width: 75%;
+  }
+}
+.contact .info i {
+  color: #E74c3c;
+  font-size: 30px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.contact .info h1 {
+  color: #718096;
+  size: 35px;
 }
 
 .footer {
